@@ -27,20 +27,15 @@
             <li>brick</li>
             <li>dogs</li>
           </ol>
-          <form action="https://www.freecatphotoapp.com/submit-cat-photo"><input type="text" required placeholder="cat photo URL">
-            <label for="yes"><input id="yes" type="checkbox" name="personality"> yes</label>
-            <label for="no"><input id="no" type="checkbox" name="personality">no</label> 
-            <label for="ok"><input id="ok" type="checkbox" name="personality">ok</label>
-              <br>
-          <button type="submit">submit</button>
-        </form>
-
-        <label for="indoor">
-  <input id="indoor" type="radio" name="indoor-outdoor">indoor
-  </label>
-  <label for="outdoor">
-    <input id="outdoor" type="radio" name="indoor-outdoor">outdoor
-    </label>
+          <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+            <label for="indoor"><input id="indoor" value="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
+            <label for="outdoor"><input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
+            <label for="loving"><input id="loving" value="cat" type="checkbox" name="personality"> Loving</label>
+            <label for="lazy"><input id="lazy" value="dog" type="checkbox" name="personality"> Lazy</label>
+            <label for="energetic"><input id="energetic" value="cow" type="checkbox" name="personality"> Energetic</label><br>
+            <input type="text" placeholder="cat photo URL" required>
+            <button type="submit">Submit</button>
+          </form>
     
 
         
